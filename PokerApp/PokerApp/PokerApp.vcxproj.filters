@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Use Cases">
+      <UniqueIdentifier>{ac52fed0-c893-4c60-95d8-df15eed2cbff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Use Cases\Get Player Cards">
+      <UniqueIdentifier>{097ef9c2-1252-4222-bf33-d0a811a978fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Use Cases\Validation">
+      <UniqueIdentifier>{935453f0-355b-4f7b-9cd1-481e561b1007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Table Model">
+      <UniqueIdentifier>{b02ec373-1816-49af-8629-1ff24904d98f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factory">
+      <UniqueIdentifier>{c8860594-1d7b-4dac-9866-035f66c7de9b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PokerApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CardDeck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeckRequestCardsInteractor.h">
+      <Filter>Header Files\Use Cases\Get Player Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="DeckRequestCardsRequest.h">
+      <Filter>Header Files\Use Cases\Get Player Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="DeckRequestCardsResult.h">
+      <Filter>Header Files\Use Cases\Get Player Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="ICardDeck.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeckRequestCardsValidator.h">
+      <Filter>Header Files\Use Cases\Get Player Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="ValidationResult.h">
+      <Filter>Header Files\Use Cases\Validation</Filter>
+    </ClInclude>
+    <ClInclude Include="IValidator.h">
+      <Filter>Header Files\Use Cases\Validation</Filter>
+    </ClInclude>
+    <ClInclude Include="DeckRequestCardsOutput.h">
+      <Filter>Header Files\Use Cases\Get Player Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="ITableModel.h">
+      <Filter>Header Files\Table Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Header Files\Table Model</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="PokerFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
